@@ -44,7 +44,7 @@ def main():
 if__name__  == '__main__':# type: ignore # ignore
    main()# type: ignore   
 
-def create_answers_section(df):
+def create_answers_section(df):# type: ignore
     st.title("Main Questions Answers")
 
     st.header("First Round")
